@@ -5,7 +5,7 @@ import RSVP from "rsvp";
 import discourseComputed, { on } from "discourse/lib/decorators";
 import { isTesting } from "discourse/lib/environment";
 import loadScript from "discourse/lib/load-script";
-import AdComponent from "discourse/plugins/discourse-adplugin/discourse/components/ad-component";
+import AdComponent from "discourse/plugins/discourse-docs/discourse/components/ad-component";
 
 let _loaded = false,
   _promise = null,

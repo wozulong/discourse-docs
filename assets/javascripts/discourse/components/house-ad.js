@@ -5,7 +5,7 @@ import {
   classNames,
 } from "@ember-decorators/component";
 import discourseComputed from "discourse/lib/decorators";
-import AdComponent from "discourse/plugins/discourse-adplugin/discourse/components/ad-component";
+import AdComponent from "discourse/plugins/discourse-docs/discourse/components/ad-component";
 
 const adIndex = {
   topic_list_top: null,

@@ -2,7 +2,7 @@ import { and } from "@ember/object/computed";
 import { htmlSafe } from "@ember/template";
 import { classNames } from "@ember-decorators/component";
 import discourseComputed from "discourse/lib/decorators";
-import AdComponent from "discourse/plugins/discourse-adplugin/discourse/components/ad-component";
+import AdComponent from "discourse/plugins/discourse-docs/discourse/components/ad-component";
 
 @classNames("amazon-product-links")
 export default class AmazonProductLinks extends AdComponent {

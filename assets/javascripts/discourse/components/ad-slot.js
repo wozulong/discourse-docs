@@ -3,11 +3,11 @@ import { service } from "@ember/service";
 import { isBlank } from "@ember/utils";
 import { tagName } from "@ember-decorators/component";
 import discourseComputed from "discourse/lib/decorators";
-import AdComponent from "discourse/plugins/discourse-adplugin/discourse/components/ad-component";
+import AdComponent from "discourse/plugins/discourse-docs/discourse/components/ad-component";
 import {
   isNthPost,
   isNthTopicListItem,
-} from "discourse/plugins/discourse-adplugin/discourse/helpers/slot-position";
+} from "discourse/plugins/discourse-docs/discourse/helpers/slot-position";
 
 const adConfig = EmberObject.create({
   "google-adsense": {

@@ -1,6 +1,6 @@
 import { htmlSafe } from "@ember/template";
 import discourseComputed from "discourse/lib/decorators";
-import AdComponent from "discourse/plugins/discourse-adplugin/discourse/components/ad-component";
+import AdComponent from "discourse/plugins/discourse-docs/discourse/components/ad-component";
 
 export default class CarbonadsAd extends AdComponent {
   serve_id = null;
