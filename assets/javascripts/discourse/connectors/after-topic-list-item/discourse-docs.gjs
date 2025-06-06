@@ -1,10 +1,10 @@
 import Component from "@ember/component";
 import { classNames, tagName } from "@ember-decorators/component";
-import { slotContenders } from "discourse/plugins/discourse-adplugin/discourse/components/ad-slot";
+import { slotContenders } from "discourse/plugins/discourse-docs/discourse/components/ad-slot";
 import AdSlot from "../../components/ad-slot";
 
 @tagName("tr")
-@classNames("after-topic-list-item-outlet", "discourse-adplugin")
+@classNames("after-topic-list-item-outlet", "discourse-docs")
 export default class DiscourseAdplugin extends Component {
   static shouldRender(args, context) {
     return (

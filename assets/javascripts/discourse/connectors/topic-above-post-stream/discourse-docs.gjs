@@ -3,11 +3,11 @@ import { classNames, tagName } from "@ember-decorators/component";
 import AdSlot from "../../components/ad-slot";
 
 @tagName("div")
-@classNames("topic-above-suggested-outlet", "discourse-adplugin")
+@classNames("topic-above-post-stream-outlet", "discourse-docs")
 export default class DiscourseAdplugin extends Component {
   <template>
     <AdSlot
-      @placement="topic-above-suggested"
+      @placement="topic-above-post-stream"
       @category={{this.model.category.slug}}
     />
   </template>
